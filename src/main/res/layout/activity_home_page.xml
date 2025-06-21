@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homePageActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="413dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="39dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout21"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="40dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/listView1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="413dp"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FD0505"
+                    android:fontFamily="sans-serif-black"
+                    android:text="ENF MOBILINDO"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="36sp"
+                    app:autoSizeTextType="none" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout20"
+        android:layout_width="396dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
+
+        <TextView
+            android:id="@+id/txtUsername"
+            android:layout_width="427dp"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:text="Halo username!"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:autoSizeTextType="none" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Pilih Kendaraan"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:autoSizeTextType="uniform" />
+
+        <Button
+            android:id="@+id/btnCari"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:backgroundTint="#FD0505"
+            android:text="CARI SEKARANG!"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Pesanan Saya"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:autoSizeTextType="uniform" />
+
+        <Button
+            android:id="@+id/btnLihat"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:backgroundTint="#FD0505"
+            android:text="LIHAT"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="Pengambilan Kendaraan"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:autoSizeTextType="uniform" />
+
+        <Button
+            android:id="@+id/btnBuka1"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:backgroundTint="#FD0505"
+            android:text="BUKA"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="Pengembalian Kendaraan"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:autoSizeTextType="uniform" />
+
+        <Button
+            android:id="@+id/btnBuka2"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:backgroundTint="#FD0505"
+            android:text="BUKA"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Lokasi"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:autoSizeTextType="uniform" />
+
+        <Button
+            android:id="@+id/btnLokasi"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:backgroundTint="#FD0505"
+            android:text="LIHAT"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Profile"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:autoSizeTextType="uniform" />
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:backgroundTint="#FD0505"
+            android:text="LIHAT"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
